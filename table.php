@@ -15,8 +15,8 @@ while (($flight = mysqli_fetch_array($result, MYSQLI_ASSOC)) !== null) {
         '</td><td>' . $flight['pilot'] .
         '</td><td>' . $flight['destination'] .
         '</td><td>' . $flight['gate_code'] .
-        '</td><td>' . '<button onclick="deleteRow(' . $flight['id'] . ')">Delete</button>' .
-        '<td><button onclick="editRow(' . $flight['id'] . ',\'' . $flight['pilot'] . '\',\'' . $flight['destination'] . '\',\'' . $flight['gate_code'] . '\')">Edit</button></td>' .
+        '</td><td>' . '<button onclick="deleteRow(' . $flight['id'] . ')">Delete</button>'
+        . '<button onclick="editRow(' . $flight['id'] . ',\'' . $flight['pilot'] . '\',\'' . $flight['destination'] . '\',\'' . $flight['gate_code'] . '\')">Edit</button>' .
         '</td></tr>' . PHP_EOL;
 }
 echo '</table>' . PHP_EOL;
