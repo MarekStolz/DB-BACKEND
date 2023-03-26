@@ -1,8 +1,8 @@
 # DB-BACKEND
 - Screenshoty
 
-<<<<<<< HEAD
-  Tabulka ![SQL_PHP](PICTURE\table.png)
-  Delete ![SQL_PHP](PICTURE\delete.png)
-  Add ![SQL_PHP](PICTURE\add.png)
-  Edit ![SQL_PHP](PICTURE\edit.png)
+HEAD
+  Tabulka ![table](PICTURE\table.png)
+  Delete ![delete](PICTURE\delete.png)
+  Add ![add](PICTURE\add.png)
+  Edit ![edit](PICTURE\edit.png)
